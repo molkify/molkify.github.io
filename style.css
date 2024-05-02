@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@800&display=swap');
+
 .container {
     background-color: rgb(0,0,0);
     width: 100%;
@@ -13,6 +16,22 @@ h1 {
     color: white;
 }
 
-h2,h3,h4,h5,h6,a,ul {
+h2,h3,h4,h5,h6,a,ul, {
     color: white;
+}
+
+
+p {
+   font-family: "Titan One", serif;
+   font-color: white;
+}
+
+summary {
+   font-family: "Lexend", serif;
+   font-color: white;
+   cursor: pointer;
+}
+
+summary:hover {
+  cursor: pointer;
 }
