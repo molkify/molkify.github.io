@@ -5,6 +5,11 @@
     border: 1px solid green;
 }
 
+.container-2 {
+    border-width: thin;
+    border: solid green;
+}
+
 html {
     font-family: verdana;
     background-color: rgb(0,0,0);
