@@ -16,11 +16,6 @@ h4,h5,h6,a,p {
    font-family: "Nunito", sans-serif;
 }
 
-#particles-js {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+audio {
+    display: none;
 }
