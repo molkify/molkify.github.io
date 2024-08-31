@@ -6,6 +6,11 @@ html {
     text-align: center;
 }
 
+.html {
+ background-color: #1c2020;
+ text-align: center;
+}
+
 h1 {
     color: white;
     font-family: "Prompt", sans-serif;
