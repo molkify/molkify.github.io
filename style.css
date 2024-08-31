@@ -4,7 +4,7 @@
 body {
     background-color: rgb(0,0,0);
     text-align: center;
-    padding: 70px 0;
+    justify-content: center;
 }
 
 h1 {
