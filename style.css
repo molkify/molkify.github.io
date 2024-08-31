@@ -27,6 +27,7 @@ h2,h3,h4,h5,h6,a,p {
             height: 150px;
             margin-bottom: 20px;
             transition: transform 0.5s ease;
+            text-align: center;
 }
 
 #playsong {
