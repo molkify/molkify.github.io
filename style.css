@@ -16,21 +16,6 @@ h2,h3,h4,h5,h6,a,p {
    font-family: "Nunito", sans-serif;
 }
 
-.pfcard {
-  position: absolute;
-    top: 30%;
-    left: 50%;
-    min-width: 350px;
-    margin: 0 auto;
-    border: 3px #ffffff;
-  border-radius: 10px;  
-    background: rgba(48, 46, 45, 1);
-    min-height: 250px;
-    padding: 20px;
-    z-index: 9997;
-    text-align: center;
-}
-
 #pfp {
             border-radius: 50%;
             width: 150px;
