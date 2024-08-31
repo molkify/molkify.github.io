@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 html {
@@ -8,14 +8,57 @@ html {
 
 h1 {
     color: white;
-    font-family: "Press Start 2P", sans-serif;
+    font-family: "Prompt", sans-serif;
 }
 
-h4,h5,h6,a,p {
+h2,h3,h4,h5,h6,a,p {
     color: white;
    font-family: "Nunito", sans-serif;
 }
 
-audio {
-    display: none;
+.pfcard {
+  position: absolute;
+    top: 30%;
+    left: 50%;
+    min-width: 350px;
+    margin: 0 auto;
+    border: 3px #ffffff;
+  border-radius: 10px;  
+    background: rgba(48, 46, 45, 1);
+    min-height: 250px;
+    padding: 20px;
+    z-index: 9997;
+    text-align: center;
 }
+
+#pfp {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+            transition: transform 0.5s ease;
+}
+
+#playsong {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10;
+            color: white;
+            font-size: 2em;
+            cursor: pointer;
+            transition: opacity 1s ease;
+        }
+
+#enter-text {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 2px solid white;
+            border-radius: 10px;
+        }
