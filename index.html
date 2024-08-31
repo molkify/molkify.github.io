@@ -1,52 +1,52 @@
+<!DOCTYPE html>
 <html>
-<head>
-<title>molkifys liminal space 0_o</title>
-<link rel="stylesheet" href="/style.css">
-<link rel="shortcut icon" href="https://molki.pages.dev/IMG_3504.jpeg">
-<meta property="og:title" content="molkify!">
-  <meta name="theme-color" content="#000000">
-  <meta name="msapplication-TileColor" content="#000000">
-  <meta property="og:image" content="https://molki.pages.dev/IMG_3504.jpeg">
-  <meta name="description" content="molkify: my little corner on the web">
-  <meta name="og:description" content="molkify: my little corner on the web">
-</head>
-<body>
-    <div>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>molki</title>
+    <link rel="shortcut icon" href=“https://molkify.neocities.org/images/favicon.jpeg”>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+<center>
+<h1 class="typewriter"></h1>
+<h2>a really stupid frontend developer</h2>
+<br>
+<img src="https://skillicons.dev/icons?i=html,css,javascript,cloudflare,discord,vscode,github&amp;perline=8">
+<hr>
+<h1>socials</h1>
+<a href="https://molki.pages.dev/socials.html">socials</a>
+<hr>
+<h1>projects</h1>
+<a href="https://classwork-heaven.pages.dev">classwork heaven</a>
+<br>
+<br>
+<br>
+<img src="https://molkify.neocities.org/images/blinkie.png">
       
-    <br><br>
-    
-    <br><br><br>
-    
-    <br>
-    <br>
-    <br>
-    <br>
-<h1>molkifys liminal space</h1>
-<h4>welcome to molkifys liminal space ooooooooo 0_o</h4>
-<hr>
-<h1>🛠️ Tools/Things i use:</h1>
-<img src="https://skillicons.dev/icons?i=html,css,javascript,cloudflare,discord,vscode,github&perline=8">
-<br><br>
-    
-<br><br><br>
+      <script>
+        const text = "molkify!";
+        const typingDelay = 500; 
+        const initialDelay = 100; 
+        const cursor = document.getElementById("cursor");
+        const h1 = document.querySelector(".typewriter");
 
-<br>
-<br>
-<br>
-<br>
-<h1>❓ Things about me:</h1>
-<hr>
-<h4>i dont really like school</h4>
-<h4>i wanna learn javascript but it seems overwhelming :(</h4>
-<h4>im autistic developer whos kewl</h4>
-<hr>
-<h1>🔭 Projects (might change):</h1>
-<a href="https://classwork-heaven.pages.dev">classwork heaven, a proxy with games!</a>
-<hr>
-<h1>🎮 Games I Play:</h1>
-<h4>Cooking Mama on the ds (sometimes), New Super Mario Bros on the ds (sometimes), Super Smash Bros on the n64 (sometimes), roblox (sometimes).</h4>
-<audio controls autoplay>
-<source src="/meet_the_grahams.mp3" 
-     type="audio/mpeg">
-</audio>
-</body></html>
+        function type() {
+            setTimeout(() => {
+                for (let i = 0; i < text.length; i++) {
+                setTimeout(() => {
+                    h1.textContent += text[i];
+                    if (i === text.length - 1) {
+                    cursor.style.display = "none"; 
+                    }
+                }, i * typingDelay);
+                }
+            }, initialDelay);
+        }
+
+        type();
+      </script>
+
+</center>
+</body>
+</html>
