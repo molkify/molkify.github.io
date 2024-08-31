@@ -9,6 +9,13 @@
   </head>
   <body>
 <center>
+<div id="overlay">
+        <div id="enter-text">click to continue :3</div>
+    </div>
+<div class="pf-card">
+<div id="pfp">
+<img src="IMG_3504.jpeg" id="pfp">
+</div>
 <h1 class="typewriter"></h1>
 <h2>a really stupid frontend developer</h2>
 <br>
@@ -23,7 +30,8 @@
 <br>
 <br>
 <img src="https://molkify.neocities.org/images/blinkie.png">
-      
+</div> 
+<audio id="bg-music" src="bg.mp3" loop></audio>
       <script>
         const text = "molkify!";
         const typingDelay = 500; 
@@ -46,7 +54,22 @@
 
         type();
       </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const overlay = document.getElementById('play-song');
+            const content = document.querySelector('.pf-card');
+            const bgMusic = document.getElementById('bg-music');
 
+            overlay.addEventListener('click', () => {
+                overlay.style.opacity = '0';
+                setTimeout(() => {
+                    overlay.style.display = 'none';
+                    content.style.display = 'flex';
+                    bgMusic.play();
+                }, 1000);
+            });
+        });
+    </script>
 </center>
 </body>
 </html>
