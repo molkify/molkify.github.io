@@ -4,72 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>molki</title>
-    <link rel="shortcut icon" href=“https://molkify.neocities.org/images/favicon.jpeg”>
+    <link rel="shortcut icon" href=“”>
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body>
 <center>
-<div id="playsong">
-        <div id="enter-text"><p>click to continue :3</p></div>
-    </div>
-<div class="html">
-<div id="pfp">
-<img src="IMG_3504.jpeg" id="pfp">
-</div>
-<h1 class="typewriter"></h1>
-<h2>a really stupid frontend developer</h2>
+<nav>
+<a href="/blog.html">blog</a> • <a href="mailto:molkify@proton.me">email me</a>
+</nav>
+    <h1>hey im molkify! :3</h1>
+    <p>frontend dev i guess</p>
+    <p>she/her</p>
 <br>
 <img src="https://skillicons.dev/icons?i=html,css,javascript,cloudflare,discord,vscode,github&amp;perline=8">
-<hr>
-<h1>socials</h1>
-<a href="https://molki.pages.dev/socials.html">socials</a>
-<hr>
-<h1>projects</h1>
-<a href="https://classwork-heaven.pages.dev">classwork heaven</a>
-<br>
-<br>
-<br>
-<img src="https://molkify.neocities.org/images/blinkie.png">
-</div> 
-<audio id="bg-music" src="bg.mp3" loop></audio>
-      <script>
-        const text = "molkify!";
-        const typingDelay = 500; 
-        const initialDelay = 100; 
-        const cursor = document.getElementById("cursor");
-        const h1 = document.querySelector(".typewriter");
-
-        function type() {
-            setTimeout(() => {
-                for (let i = 0; i < text.length; i++) {
-                setTimeout(() => {
-                    h1.textContent += text[i];
-                    if (i === text.length - 1) {
-                    cursor.style.display = "none"; 
-                    }
-                }, i * typingDelay);
-                }
-            }, initialDelay);
-        }
-
-        type();
-      </script>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const overlay = document.getElementById('playsong');
-            const content = document.querySelector('body');
-            const bgMusic = document.getElementById('bg-music');
-
-            overlay.addEventListener('click', () => {
-                overlay.style.opacity = '0';
-                setTimeout(() => {
-                    overlay.style.display = 'none';
-                    content.style.display = 'flex';
-                    bgMusic.play();
-                }, 1000);
-            });
-        });
-    </script>
 </center>
 </body>
 </html>
