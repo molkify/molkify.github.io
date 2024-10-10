@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 body {
-    background-color: #221F30;
+    background-color: #000000;
     text-align: center;
     justify-content: center;
 }
@@ -38,4 +38,8 @@ a:visited {
 
 img {
     filter: grayscale(100%);
+}
+
+.pfp {
+  border-radius: 50%;
 }
