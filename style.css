@@ -35,3 +35,7 @@ a:visited {
     align-items: center;
     justify-content: center;
 }
+
+img {
+    filter: grayscale(100%);
+}
