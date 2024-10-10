@@ -43,3 +43,9 @@ img {
 .pfp {
   border-radius: 50%;
 }
+
+.card {
+    border-radius: 10px;
+    background-color: #000000;
+    border: 5px solid white;
+}
