@@ -63,6 +63,14 @@ font-family: "Nunito";
 color: white;
 }
 
+#enter-text {
+padding: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 1vw;
+}
+
 .html {
 display: none;
   flex-direction: column;
