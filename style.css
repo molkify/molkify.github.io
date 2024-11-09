@@ -43,3 +43,19 @@ img {
 .pfp {
   border-radius: 50%;
 }
+
+#overlay {
+background-color: #000;
+font-family: "Nunito";
+color: white;
+}
+
+.html {
+display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  color: white;
+}
