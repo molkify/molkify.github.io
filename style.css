@@ -6,12 +6,12 @@ body {
 
 h1 {
     color: white;
-    font-family: "Prompt";
+    font-family: system-ui;
 }
 
 h2,h3,h4,h5,h6,a,p {
     color: white;
-   font-family: monospace;
+   font-family: system-ui;
 }
 
 nav {
@@ -35,6 +35,9 @@ a:visited {
 
 .pfp {
   border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 3px solid #ccc;
 }
 
 #overlay {
