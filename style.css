@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-
 body {
-    background-color: #000000;
+    background-color: #1e1e2e;
     text-align: center;
     justify-content: center;
 }
@@ -34,10 +31,6 @@ a:visited {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-img {
-    filter: grayscale(100%);
 }
 
 .pfp {
@@ -79,4 +72,13 @@ display: none;
   height: 100%;
   text-align: center;
   color: white;
+}
+
+#span {
+  font-size: 22px;
+}
+
+#hi {
+  color: #cba6f7;
+  text-decoration: underline;
 }
