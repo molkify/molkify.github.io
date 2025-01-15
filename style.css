@@ -1,8 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital@0;1&display=swap');
+@font-face {
+  font-family: Monocraft;
+  src: url(fonts/Monocraft.ttf);
+}
 
 body {
     background-color: #000000;
-    font-family: "JetBrains Mono";
+    font-family: "Monocraft";
     text-align: center;
     color: #cdd6f4;
 }
