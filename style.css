@@ -1,31 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital@0;1&display=swap');
+
 body {
     background-color: #1e1e2e;
-    text-align: center;
-    justify-content: center;
+    font-family: "JetBrains Mono";
     color: #cdd6f4;
-}
-
-h1 {
-    font-family: system-ui;
-}
-
-h2,h3,h4,h5,h6,a,p {
-   font-family: system-ui;
-}
-
-nav {
-  align-content: center;
 }
 
 .arrow {
     filter: invert(1);
     width: 50px;
-}
-
-.title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .pfp {
