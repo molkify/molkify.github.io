@@ -2,24 +2,19 @@ body {
     background-color: #1e1e2e;
     text-align: center;
     justify-content: center;
+    color: #cdd6f4;
 }
 
 h1 {
-    color: white;
     font-family: system-ui;
 }
 
 h2,h3,h4,h5,h6,a,p {
-    color: white;
    font-family: system-ui;
 }
 
 nav {
   align-content: center;
-}
-
-a:visited {
-    color: white;
 }
 
 .arrow {
@@ -40,48 +35,14 @@ a:visited {
   border: 3px solid #ccc;
 }
 
-#overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.7);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 10;
-  color: white;
-  font-size: 1.5vw;
-  cursor: pointer;
-  transition: opacity 1s ease;
-font-family: "Nunito";
-color: white;
-}
-
-#enter-text {
-padding: 10px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 2px solid white;
-  border-radius: 10px;
-  font-size: 1vw;
-}
-
-.html {
-display: none;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  text-align: center;
-  color: white;
-}
-
 #span {
   font-size: 22px;
 }
 
 #hi {
   color: #cba6f7;
-  text-decoration: underline;
+}
+
+.blinkie {
+   margin-left: 15px;
 }
