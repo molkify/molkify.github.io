@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital@0;1&display=swap');
 
 body {
-    background-color: #1e1e2e;
+    background-color: #000000;
     font-family: "JetBrains Mono";
+    text-align: center;
     color: #cdd6f4;
 }
 
@@ -23,9 +24,11 @@ body {
 }
 
 #hi {
-  color: #cba6f7;
+  color: #ffc0cb;
 }
 
 .blinkie {
    margin-left: 15px;
+   width: 88px;
+   height: 31px;
 }
