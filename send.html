@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>molkify | bluesky posts</title>
+    <title>molkify | send something</title>
     <link rel="shortcut icon" href='/img/molkify.webp'>
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
     <meta property="og:title" content="molkify!">
@@ -26,7 +26,9 @@
     <br>
       <small><span id="currentlength"></span>/1500 characters</small><br>
   Username: <input id="username" maxlength="30"></input><br>
-      <textarea id="message" maxlength="1500">uhh</textarea><br>
+    <br>
+      <textarea id="message" maxlength="1500"></textarea><br>
+      <br>
       <button onclick="sendMessage(document.getElementById('message').value)">Send!</button>
     </div>
 </div>
