@@ -39,6 +39,16 @@ nav {
     gap: 10px;
 }
 
+/* duplicate nav because of index.html containers not fucking working */
+
+#nav {
+  margin-top: 2rem;
+    display: flex;
+    flex: 1 1 0%;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
 a {
   color: #ffc0cb;
   text-decoration: none;

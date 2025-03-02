@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>molkify | contact</title>
+    <title>molkify | bluesky posts</title>
     <link rel="shortcut icon" href='/img/molkify.webp'>
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
     <meta property="og:title" content="molkify!">
@@ -14,15 +14,23 @@
     <meta name="og:description" content="aspiring frontend developer">
 </head>
 <body>
+
 <nav>
     <a href="/">home</a>
     <a href="/yap">thoughts</a>
     <a href="/contact">contact me</a>
     <a href="/send">send me something</a>
    </nav>
-   <br>
-<h1>˗ˏˋ molkify | contact me ´ˎ˗</h1>
-<p>you can contact me through <a href="mailto:molkify@proton.me">email</a> or <a href="/discord.html">discord</a></p>
+<br>
+<h1>˗ˏˋ molkify | send me a message! ´ˎ˗</h1>
+    <br>
+      <small><span id="currentlength"></span>/1500 characters</small><br>
+  Username: <input id="username" maxlength="30"></input><br>
+      <textarea id="message" maxlength="1500">uhh</textarea><br>
+      <button onclick="sendMessage(document.getElementById('message').value)">Send!</button>
+    </div>
+</div>
+<script src="./send.js"></script>
 <script src="./oneko.js"></script>
 </body>
 </html>
