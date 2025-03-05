@@ -1,2 +1,51 @@
-// obfuscated for security reasons.
-function _0x585a(_0x593012,_0x521df7){var _0x4e81ab=_0x4e81();return _0x585a=function(_0x585a3,_0x25064e){_0x585a3=_0x585a3-0x14e;var _0x574eb7=_0x4e81ab[_0x585a3];return _0x574eb7;},_0x585a(_0x593012,_0x521df7);}(function(_0x13df5b,_0x27b96c){var _0x47420e=_0x585a,_0x27a0ab=_0x13df5b();while(!![]){try{var _0x1b524b=-parseInt(_0x47420e(0x164))/0x1*(-parseInt(_0x47420e(0x150))/0x2)+-parseInt(_0x47420e(0x158))/0x3+parseInt(_0x47420e(0x15f))/0x4*(-parseInt(_0x47420e(0x16f))/0x5)+-parseInt(_0x47420e(0x15e))/0x6+parseInt(_0x47420e(0x155))/0x7*(-parseInt(_0x47420e(0x153))/0x8)+-parseInt(_0x47420e(0x163))/0x9*(parseInt(_0x47420e(0x152))/0xa)+-parseInt(_0x47420e(0x16c))/0xb*(-parseInt(_0x47420e(0x154))/0xc);if(_0x1b524b===_0x27b96c)break;else _0x27a0ab['push'](_0x27a0ab['shift']());}catch(_0x59e7ee){_0x27a0ab['push'](_0x27a0ab['shift']());}}}(_0x4e81,0x8decd));var cd=0x12c;function sendMessage(_0x4cae5b,_0x23ef47){var _0x350dc7=_0x585a,_0xba2fa6=new XMLHttpRequest();_0xba2fa6['open'](_0x350dc7(0x14e),_0x350dc7(0x162));var _0x2a43b3=_0x23ef47;_0x2a43b3==''&&(_0x2a43b3=_0x350dc7(0x159));;_0xba2fa6[_0x350dc7(0x16b)](_0x350dc7(0x167),_0x350dc7(0x15d));var _0x30684d={'username':_0x350dc7(0x14f),'avatar_url':_0x350dc7(0x15b),'embeds':[{'title':_0x350dc7(0x169)+_0x2a43b3+':','description':_0x4cae5b}]};if(cd>0x0)window[_0x350dc7(0x172)](_0x350dc7(0x168)+cd+'0\x20miliseconds\x20left');else _0x4cae5b!=''?(_0xba2fa6[_0x350dc7(0x156)](JSON[_0x350dc7(0x151)](_0x30684d)),cd=0x12c):window[_0x350dc7(0x172)](_0x350dc7(0x161));;document[_0x350dc7(0x165)](_0x350dc7(0x166))[_0x350dc7(0x16e)]='',document['getElementById'](_0x350dc7(0x16a))[_0x350dc7(0x16e)]='';}function _0x4e81(){var _0x560e18=['currentlength','application/json','2614962hFrNMl','36ttmAud','0\x20miliseconds\x20left\x20until\x20you\x20can\x20post\x20another\x20message!','Empty\x20message!','https://discord.com/api/webhooks/1345649940310921257/nIMMTWFtiVjBJBDg8VyA7u84wxblzB_o7y4v_rhceO8eFmwTVUG10tpNjLD5VFS7AU5z','1743165swBWNr','8MWcPiP','getElementById','message','Content-type','cool\x20down\x20bro\x20you\x20got\x20like\x20','From\x20','username','setRequestHeader','11LHOkaF','#00FF00','value','416535hzXJHD','style','size','alert','POST','a\x20new\x20message','38462RrjaKr','stringify','60AHQzCW','8DGEGNy','47190828mnJikt','580321Wblcfl','send','cooldown','3223467cnCUSw','errmmmm\x20I\x20FORGOR...','innerHTML','https://molkify.dev/img/molkify.webp'];_0x4e81=function(){return _0x560e18;};return _0x4e81();}setInterval(function(){var _0x4a4472=_0x585a,_0x4e5709=new Blob([document['getElementById']('message')[_0x4a4472(0x16e)]])[_0x4a4472(0x171)];document[_0x4a4472(0x165)](_0x4a4472(0x15c))[_0x4a4472(0x15a)]=_0x4e5709;if(_0x4e5709>0x5dc){document['getElementById'](_0x4a4472(0x15c))[_0x4a4472(0x170)]['color']='#FF0000';while(_0x4e5709>=0x5dc){document['getElementById']('message')['value']=document[_0x4a4472(0x165)]('message')['value']['slice'](0x0,-0x2),_0x4e5709=new Blob([document[_0x4a4472(0x165)](_0x4a4472(0x166))[_0x4a4472(0x16e)]])['size'];}}else document['getElementById'](_0x4a4472(0x15c))['style']['color']=_0x4a4472(0x16d);;cd--;cd>0x0?document['getElementById'](_0x4a4472(0x157))[_0x4a4472(0x15a)]=cd+_0x4a4472(0x160):document['getElementById'](_0x4a4472(0x157))[_0x4a4472(0x15a)]='';;},0xa);
+var cd = 0x12c;
+function sendMessage(_0x4cae5b, _0x23ef47) {
+  var _0xba2fa6 = new XMLHttpRequest();
+  _0xba2fa6.open("POST", "https://discord.com/api/webhooks/1345649940310921257/nIMMTWFtiVjBJBDg8VyA7u84wxblzB_o7y4v_rhceO8eFmwTVUG10tpNjLD5VFS7AU5z");
+  var _0x2a43b3 = _0x23ef47;
+  if (_0x2a43b3 == '') {
+    _0x2a43b3 = "errmmmm I FORGOR...";
+  }
+  ;
+  _0xba2fa6.setRequestHeader("Content-type", "application/json");
+  var _0x30684d = {
+    'username': "a new message",
+    'avatar_url': "https://molkify.dev/img/molkify.webp",
+    'embeds': [{
+      'title': "From " + _0x2a43b3 + ':',
+      'description': _0x4cae5b
+    }]
+  };
+  if (cd > 0x0) {
+    window.alert("cool down bro you got like " + cd + "0 miliseconds left");
+  } else if (_0x4cae5b != '') {
+    _0xba2fa6.send(JSON.stringify(_0x30684d));
+    cd = 0x12c;
+  } else {
+    window.alert("Empty message!");
+  }
+  ;
+  document.getElementById("message").value = '';
+  document.getElementById("username").value = '';
+}
+setInterval(function () {
+  var _0x4e5709 = new Blob([document.getElementById('message').value]).size;
+  document.getElementById("currentlength").innerHTML = _0x4e5709;
+  if (_0x4e5709 > 0x5dc) {
+    document.getElementById("currentlength").style.color = '#FF0000';
+    while (_0x4e5709 >= 0x5dc) {
+      document.getElementById('message').value = document.getElementById('message').value.slice(0x0, -0x2);
+      _0x4e5709 = new Blob([document.getElementById("message").value]).size;
+    }
+  } else {
+    document.getElementById("currentlength").style.color = "#00FF00";
+  }
+  ;
+  cd--;
+  if (cd > 0x0) {
+    document.getElementById("cooldown").innerHTML = cd + "0 miliseconds left until you can post another message!";
+  } else {
+    document.getElementById("cooldown").innerHTML = '';
+  }
+  ;
+}, 0xa);
